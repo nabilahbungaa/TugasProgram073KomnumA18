@@ -3,11 +3,11 @@
 ## Kelompok A18 ##
 
 Anggota Kelompok : 
-1. ##### Umi Lailatul Khotimah ##### (5025241062)
-2. ##### Nashwa Aulia Putri Diansyah ##### (5025241064)
-3. ##### Nabilah Bunga Sulistia ##### (5025241073)
-4. ##### Rhea Debora Sianturi ##### (5025241095)
-5. ##### Mahirah Yasmin Aulia Mawahib ##### (5025241095)
+1. ##### Umi Lailatul Khotimah (5025241062)
+2. ##### Nashwa Aulia Putri Diansyah (5025241064)
+3. ##### Nabilah Bunga Sulistia (5025241073)
+4. ##### Rhea Debora Sianturi (5025241095)
+5. ##### Mahirah Yasmin Aulia Mawahib (5025241095)
 
 ### Penjelasan Kode Program ###
 
@@ -58,7 +58,7 @@ for j in range(1, n):
 Perulangan menghitung selisih-selisih tingkat ke-1 (∆), ke-2 (∆²), dst hingga ke-n.
 
 Baris diff[i + 1, j - 1] - diff[i, j - 1] adalah rumus umum:
-! [RumusSelisihBertingkat] (Screenshot%202025-06-08%20171607.png)
+! [Screenshot 2025-06-08 171607.png] (Screenshot%202025-06-08%20171607.png)
 
 
  Cetakan print(...) hanya untuk menampilkan hasil sampai ∆⁴ sebagai referensi.
