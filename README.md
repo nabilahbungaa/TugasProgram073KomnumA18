@@ -67,7 +67,9 @@ for j in range(1, n):
 Perulangan menghitung selisih-selisih tingkat ke-1 (∆), ke-2 (∆²), dst hingga ke-n.
 
 Baris diff[i + 1, j - 1] - diff[i, j - 1] adalah rumus umum:
+
 ![Screenshot](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20171607.png)
+
 Cetakan print(...) hanya untuk menampilkan hasil sampai ∆⁴ sebagai referensi.
 
 *5. Mengembalikan hasil tabel*
@@ -110,6 +112,7 @@ S = round((x_target_val - x0_val) / h, 2)
 print(f"S = {S}")
 ```
 Menghitung nilai 𝑆 sebagai parameter utama interpolasi:
+
 ​![Hasil Screenshot](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20181947.png)
 
 ```
@@ -132,6 +135,7 @@ print(f"Term i=1: {term1}")
 result += term1
 ```
 Menghitung suku pertama dari Stirling:
+
 ![Screenshot Hasil Program](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20183255.png)
 Disimpan di term1 dan ditambahkan ke result.
 
@@ -143,6 +147,7 @@ print(f"Term i=2: {term2}")
 result += term2
 ```
 Menghitung suku kedua dari Stirling:
+
 ![Screenshot 8](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20190329.png)
 
 *Term 3*
@@ -153,6 +158,7 @@ print(f"Term i=3: {term3}")
 result += term3
 ```
 Menghitung suku ketiga dari Stirling:
+
 ![Screenshot Tambahan](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20184459.png)
 
 *Term 4*
@@ -164,6 +170,7 @@ result += term4
 ```
 Menghitung suku keempat dari Stirling. Catatan:
 Biasanya term ini berbentuk:
+
 ![Screenshot Terbaru](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20184926.png)
 
 #### Menghasilkan nilai interpolasi akhir #####
@@ -190,6 +197,7 @@ print(f"\nf({xt}) = {hasil}")
 print(f"Et = {abs((yt - hasil)/yt) * 100 : .2f}")
 ```
 Menampilkan hasil akhir 𝑓(𝑥) dan menghitung galat relatif persentase:
+
 ![Screenshot Terakhir](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20185545.png)
 
 ## OUTPUTNYA SEBAGAI BERIKUT
