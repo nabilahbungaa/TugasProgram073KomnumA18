@@ -183,7 +183,12 @@ print(f"Et = {abs((yt - hasil)/yt) * 100 : .2f}")
 Menampilkan hasil akhir 𝑓(𝑥) dan menghitung galat relatif persentase:
 ![Screenshot Terakhir](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20185545.png)
 
+## OUTPUTNYA SEBAGAI BERIKUT
 
+![Screenshot 9](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20192222.png)
+
+
+[Commit 3357285](https://github.com/nabilahbungaa/TugasProgram073KomnumA18/commit/3357285d3bf3d48a25aed1c7044875ce5c165ba8)
 
 
 
