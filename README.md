@@ -137,6 +137,7 @@ result += term1
 Menghitung suku pertama dari Stirling:
 
 ![Screenshot Hasil Program](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20183255.png)
+
 Disimpan di term1 dan ditambahkan ke result.
 
 *Term 2*\
