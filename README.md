@@ -27,4 +27,17 @@ def compute_diff_table(y_vals):
 ```
 ```y_vals``` → List atau array satu dimensi yang berisi nilai-nilai fungsi f(x) dari tabel (misal: [634575, 1673874, ...]).
 
+##### Proses di Dalam Fungsi #####
+
+*1. Menentukan panjang data*
+```
+n = len(y_vals) 
+```
+Menyimpan jumlah data (banyaknya titik) dalam variabel n
+
+*2. Membuat tabel kosong untuk selisih*
+
+
+
+
 
