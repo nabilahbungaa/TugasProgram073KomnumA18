@@ -10,7 +10,12 @@ Anggota Kelompok :
 5. ##### Mahirah Yasmin Aulia Mawahib (5025241095)
 
 Soal Nomor 28
+
 ![Foto 1000101663](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/1000101663.jpg)
+
+Tabel Nomor 28
+
+![Foto 1000101664](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/1000101664.jpg)
 
 
 ### Penjelasan Kode Program ###
