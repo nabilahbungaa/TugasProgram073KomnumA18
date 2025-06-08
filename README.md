@@ -9,6 +9,10 @@ Anggota Kelompok :
 4. ##### Rhea Debora Sianturi (5025241095)
 5. ##### Mahirah Yasmin Aulia Mawahib (5025241095)
 
+Soal Nomor 28
+![Foto 1000101663](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/1000101663.jpg)
+
+
 ### Penjelasan Kode Program ###
 
 ```
