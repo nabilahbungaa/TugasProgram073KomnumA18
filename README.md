@@ -188,7 +188,8 @@ Menampilkan hasil akhir 𝑓(𝑥) dan menghitung galat relatif persentase:
 ![Screenshot 9](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20192222.png)
 
 
-[Commit 3357285](https://github.com/nabilahbungaa/TugasProgram073KomnumA18/commit/3357285d3bf3d48a25aed1c7044875ce5c165ba8)
+[b415524](https://github.com/nabilahbungaa/TugasProgram073KomnumA18/commit/b41552422bf6ce2d28cf88afa98dd0e0a660ccf6)
+
 
 
 
