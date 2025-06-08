@@ -58,7 +58,7 @@ for j in range(1, n):
 Perulangan menghitung selisih-selisih tingkat ke-1 (∆), ke-2 (∆²), dst hingga ke-n.
 
 Baris diff[i + 1, j - 1] - diff[i, j - 1] adalah rumus umum:
-! [RumusSelisihBertingkat] (https://github.com/nabilahbungaa/TugasProgram073KomnumA18/blob/main/Screenshot%202025-06-08%20171607.png)
+! [RumusSelisihBertingkat] (Screenshot%202025-06-08%20171607.png)
 
 
  Cetakan print(...) hanya untuk menampilkan hasil sampai ∆⁴ sebagai referensi.
