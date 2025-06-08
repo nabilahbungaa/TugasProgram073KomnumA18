@@ -123,6 +123,70 @@ print(f"Term i=1: {term1}")
 result += term1
 ```
 Menghitung suku pertama dari Stirling:
+![Screenshot Hasil Program](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20183255.png)
+Disimpan di term1 dan ditambahkan ke result.
+
+*Term 2*\
+```
+delta2 = diff[idx - 1][2]
+term2 = round((round((S * (S - 1))/2, 2) * delta2), 2)
+print(f"Term i=2: {term2}")
+result += term2
+```
+Menghitung suku kedua dari Stirling:
+![Screenshot 8](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20190329.png)
+
+*Term 3*
+```
+delta3 = (diff[idx - 1][3] + diff[idx - 2][3]) / 2
+term3 = round((round((S * (S - 1) * (S - 2))/6, 2) * delta3), 2)
+print(f"Term i=3: {term3}")
+result += term3
+```
+Menghitung suku ketiga dari Stirling:
+![Screenshot Tambahan](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20184459.png)
+
+*Term 4*
+```
+delta4 = diff[idx - 2][4]
+term4 = round(((x_target_val / 4) * round((S * (S - 1) * (S - 2))/6, 2) * delta4), 2)
+print(f"Term i=4: {term4}")
+result += term4
+```
+Menghitung suku keempat dari Stirling. Catatan:
+Biasanya term ini berbentuk:
+![Screenshot Terbaru](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20184926.png)
+
+#### Menghasilkan nilai interpolasi akhir #####
+```
+y_interp = round(result, 2)
+return y_interp
+```
+Membulatkan hasil akhir interpolasi menjadi 2 angka desimal, lalu mengembalikan hasil tersebut.
+
+##### Pemanggilan Fungsi #####
+```
+x_vals = [3, 6, 9, 12, 15, 18, 21, 24, 27]
+y_vals = [-741, -186, 32121, 184956, 634575, 1673874, 3741549, 7451256, 13620771]
+x0 = 15
+xt = 16
+yt = 897104
+
+hasil = stirling_interpolation(x_vals, y_vals, x0, xt)
+```
+Mengatur data input dari tabel dan memanggil fungsi interpolasi.
+
+```
+print(f"\nf({xt}) = {hasil}")
+print(f"Et = {abs((yt - hasil)/yt) * 100 : .2f}")
+```
+Menampilkan hasil akhir 𝑓(𝑥) dan menghitung galat relatif persentase:
+![Screenshot Terakhir](https://raw.githubusercontent.com/nabilahbungaa/TugasProgram073KomnumA18/main/Screenshot%202025-06-08%20185545.png)
+
+
+
+
+
 
 
  .
